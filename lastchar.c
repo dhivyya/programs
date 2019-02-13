@@ -10,7 +10,7 @@ for(i=0;a[i]!=NULL;i++)
 {
 l++;
 }
-for(i=l;i>=n;i--)
+for(i=n;i<=l;i++)
 {
 printf("%c",a[i]);
 }
