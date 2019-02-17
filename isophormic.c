@@ -1,0 +1,43 @@
+#include<stdio.h>
+void main()
+{
+char a[100],b[100];
+int n,l,i,j,f=1,l1,l2;
+gets(a);
+gets(b);
+for(i=0;a[i]!=NULL;i++)
+{
+l1++;
+}
+for(i=0;b[i]!=NULL;i++)
+{
+l2++;
+}
+if(l1==l2)
+{
+for(i=0;i<li;i++)
+{
+for(j=i+1;j<l2;j++)
+{
+n=a[i]-a[j];
+l=b[i]-b[j];
+if(n==l)
+{
+f=0;
+}
+else
+{
+f=1;
+break;
+}
+}
+}
+}
+else
+printf("no");
+if(f==0)
+printf("yes");
+else
+printf("no");
+getch();
+}
