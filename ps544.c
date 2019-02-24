@@ -5,7 +5,7 @@ int main()
 	int n,k,i,j;
 	char a[10],t;
 	scanf("%s",a);
-	n=strlen(a);
+	gets(a);
 	scanf("%d",&k);
 	for(i=0;i<k;i++)
 	{
